@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy Birthday, Ma'am</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="page">
+    <section class="hero card" aria-labelledby="hero-title">
+      <p class="eyebrow">With gratitude and respect</p>
+      <h1 id="hero-title">Happy Birthday, Ma'am</h1>
+      <p class="hero-subtext">
+        Thank you for leading with clarity, supporting with patience, and setting a standard that makes all of us better.
+        Your guidance has shaped how we work, grow, and support each other.
+      </p>
+    </section>
+
+    <section class="message card" aria-labelledby="message-title">
+      <h2 id="message-title">A Note of Appreciation</h2>
+      <p>
+        Your leadership is steady, thoughtful, and deeply practical. You create direction when things are unclear,
+        mentor without ego, and make space for people to do their best work. We appreciate how consistently you invest
+        in both outcomes and people. Wishing you a birthday filled with the same calm strength and positivity you bring to the team every day.
+      </p>
+    </section>
+
+    <section class="video card" aria-labelledby="video-title">
+      <div class="video-header">
+        <h2 id="video-title">Appreciation Video</h2>
+        <span class="badge">45 sec</span>
+      </div>
+      <p class="video-note">
+        Subtitles are included for clear viewing on mobile and in noisy environments.
+      </p>
+
+      <video controls preload="metadata" playsinline>
+        <source src="assets/maam-appreciation.mp4" type="video/mp4" />
+        <track src="assets/maam-appreciation.vtt" kind="subtitles" srclang="en" label="English" default />
+        Your browser does not support video playback.
+      </video>
+
+      <details>
+        <summary>If the video does not load</summary>
+        <p>
+          Keep the video under 60 seconds, export at 720p, and replace
+          <code>assets/maam-appreciation.mp4</code> with your final cut.
+        </p>
+      </details>
+    </section>
+  </main>
+</body>
+</html>
