@@ -10,33 +10,29 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <main class="page">
+  <main class="page" role="main">
     <section class="hero card" aria-labelledby="hero-title">
-      <p class="eyebrow">With gratitude and respect</p>
-      <h1 id="hero-title">Happy Birthday, Ma'am</h1>
+      <p class="eyebrow">Birthday Tribute</p>
+      <h1 id="hero-title">Happy Birthday, Ma'am <span class="name">[Name]</span></h1>
       <p class="hero-subtext">
-        Thank you for leading with clarity, supporting with patience, and setting a standard that makes all of us better.
-        Your guidance has shaped how we work, grow, and support each other.
+        Thank you for leading with clarity, supporting with patience, and building a culture where people improve with purpose.
       </p>
     </section>
 
     <section class="message card" aria-labelledby="message-title">
-      <h2 id="message-title">A Note of Appreciation</h2>
+      <h2 id="message-title">A Note of Respect</h2>
       <p>
-        Your leadership is steady, thoughtful, and deeply practical. You create direction when things are unclear,
-        mentor without ego, and make space for people to do their best work. We appreciate how consistently you invest
-        in both outcomes and people. Wishing you a birthday filled with the same calm strength and positivity you bring to the team every day.
+        Your leadership is steady and practical. You give direction when priorities compete, coach with fairness, and set standards that raise the quality of everyone’s work.
+        The impact is visible in both delivery and team confidence. Wishing you a calm, joyful birthday and a year ahead filled with health, strength, and continued success.
       </p>
     </section>
 
     <section class="video card" aria-labelledby="video-title">
       <div class="video-header">
         <h2 id="video-title">Appreciation Video</h2>
-        <span class="badge">45 sec</span>
+        <span class="badge">Target: 45 sec</span>
       </div>
-      <p class="video-note">
-        Subtitles are included for clear viewing on mobile and in noisy environments.
-      </p>
+      <p class="video-note">Subtitles are mandatory and enabled by default for clarity.</p>
 
       <video controls preload="metadata" playsinline>
         <source src="assets/maam-appreciation.mp4" type="video/mp4" />
@@ -44,13 +40,9 @@
         Your browser does not support video playback.
       </video>
 
-      <details>
-        <summary>If the video does not load</summary>
-        <p>
-          Keep the video under 60 seconds, export at 720p, and replace
-          <code>assets/maam-appreciation.mp4</code> with your final cut.
-        </p>
-      </details>
+      <p class="fallback-note">
+        No video yet? Add your final file at <code>assets/maam-appreciation.mp4</code> (30–60 seconds, 720p export).
+      </p>
     </section>
   </main>
 </body>
