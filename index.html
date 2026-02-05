@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy Birthday, Ma'am</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="page" role="main">
+    <section class="hero card" aria-labelledby="hero-title">
+      <p class="eyebrow">Birthday Tribute</p>
+      <h1 id="hero-title">Happy Birthday, Ma'am <span class="name">[Name]</span></h1>
+      <p class="hero-subtext">
+        Thank you for leading with clarity, supporting with patience, and building a culture where people improve with purpose.
+      </p>
+    </section>
+
+    <section class="message card" aria-labelledby="message-title">
+      <h2 id="message-title">A Note of Respect</h2>
+      <p>
+        Your leadership is steady and practical. You give direction when priorities compete, coach with fairness, and set standards that raise the quality of everyone’s work.
+        The impact is visible in both delivery and team confidence. Wishing you a calm, joyful birthday and a year ahead filled with health, strength, and continued success.
+      </p>
+    </section>
+
+    <section class="video card" aria-labelledby="video-title">
+      <div class="video-header">
+        <h2 id="video-title">Appreciation Video</h2>
+        <span class="badge">Target: 45 sec</span>
+      </div>
+      <p class="video-note">Subtitles are mandatory and enabled by default for clarity.</p>
+
+      <video controls preload="metadata" playsinline>
+        <source src="assets/maam-appreciation.mp4" type="video/mp4" />
+        <track src="assets/maam-appreciation.vtt" kind="subtitles" srclang="en" label="English" default />
+        Your browser does not support video playback.
+      </video>
+
+      <p class="fallback-note">
+        No video yet? Add your final file at <code>assets/maam-appreciation.mp4</code> (30–60 seconds, 720p export).
+      </p>
+    </section>
+  </main>
+</body>
+</html>
